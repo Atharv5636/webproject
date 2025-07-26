@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinks}}
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+   {{>navbar}}
+
+<!---header-->
+
+<div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12  mx-auto">
+                <div class="row">
+                    <div class="col-md-6 col-12 main_header_right align-items-center">
+                   <figure>
+                    <img src="images/error404.png" alt="atu" class="img-fluid" title="atu weather">
+                   </figure>
+                 </div>
+                  <div class="col-md-6 col-12 main_header_left">
+               <p>{{errorcomment}}</p>
+               <h1>This page is  <span class="error_span">not</span> available</h1>
+               <a href="/"><button>Go back</button></a>
+                  </div>
+                       
+                </div>
+                 
+                       
+                </div>
+                </div>
+                  </div>
+                    </div>
+
+       <!---footer--> 
+         {{>footer}}
+
+</body>
+</html>
